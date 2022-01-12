@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(104, 104, 104);
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+ text-align: center ;
+}
+
+#nomeprincipal {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+nav{
+    background-color:darkgrey;
+    padding: 3px;
+    box-shadow: 1px 1px 1px 1px black
+}
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 35px;
+
+}
+
+nav > a:hover {
+    text-decoration: underline;
+
+}
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: ;
+}
+
+article {
+    background-color: gainsboro;
+    padding: 10px;
+}
+
+article > aside {
+    background-color:rgb(204, 204, 204)
+}
+
+footer  {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+footer > p {
+margin: 0px;
+}
